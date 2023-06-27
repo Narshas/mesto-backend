@@ -1,0 +1,23 @@
+{
+  "name": "mesto-back",
+  "version": "1.0.0",
+  "description": "mesto-back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint . --quiet",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "narshas",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "dependencies": {
+    "mongodb": "^5.6.0"
+  }
+}
